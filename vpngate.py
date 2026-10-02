@@ -460,7 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "www.5199dy.com:443,hzytjy.cn:443,ali.nonull.pp.ua:443,auto.dolby.dpdns.org:443,"
+        "fictiv.com:443,api2-ide.imgnxa.com:443,www.dwk.com:443,www.redboxtools.com:443,skk.moe:443,garuda-indonesia.com:443,coreweave.com:443,www.meteorelectrical.com:443,www.timbuktutravel.com:443,unpkg.com:443,www.sage.com:443,ncc.gov.ng:443,nvestorrelations.medtronic.com:443,ooo.0o0.ooo:443,spirol.com:443,sourceforge.net:443,time.is:443,sci-hub.al:443,www.hugedomains.com:443,cf.0sm.com:443,fonts.cdnfonts.com:443,codeforces.com:443,sellerlogic.com:443,i.111666.best:443,noc.one:443,cdn.ctn32.us.kg:443,bitsight.com:443,i.pixiv.nl:443,www.dentoncounty.gov:443,shabak.gov.il:443,aandd.co.jp:443,macked.app:443,hitcon.org:443,registry.npmjs.org:443,www.broadcom.com:443,www.gov.il:443,www.applevis.com:443,syncfusion.com:443,resources.biginterview.com:443,my.vultr.com:443,www.loc.gov:443,i.jpg.dog:443,sunkist.com:443,cf2.996616.xyz:443,japan.com:443,elegantthemes.com:443,cdn.cnno.de:443,dogechain.info:443,www.trumpinternationalrealty.com:443,dexari.com:443,api.producthunt.com:443,kick.com:443,ip.sb:443,www.stayaka.com:443,www.trumpgolf.com:443,cfip.1323123.xyz:443,www.moc.gov.tw:443,support.communilink.net:443,help.kolet.com:443,2x.nz:443,moondroplab.com:443,gitlab.com:443,16k.club:443,brandstudio.com:443,thebeat.gehealthcare.com:443,kali.download:443,www.hypixel.net:443,53.fs1.hubspotusercontent-na1.net:443,www.copilot.com:443,codexradar.com:443,go1.dematic.com:443,qoj.ac:443,cdn.sketch.com:443,www.6i5.com:443,hlevakha.gov.ua:443,zoominfo.com:443,moodle.org:443,www.ventusky.com:443,envato.com:443,www.nomios.com:443,dash.domain.digitalplat.org:443,worldvectorlogo.com:443,crinacle.com:443,mail.notion.com:443,i.pages.dev:443,example.com:443,www.government.is:443,www.trumpstruth.org:443,i.pixiv.re:443,icook.tw:443,www.lbl.gov:443,easylist.to:443,cdn.violet.vin:443,dx.doi.org:443,buyshoes.shop:443,shen6011.pages.dev:443,vueframework.com:443,markmonitor.com:443,01-qq.com:443,spring.io:443,bbs.alipansou.com:443,stores.staples.com:443,guide.for.edu.sg:443,hostinger.com:443,www.udacity.com:443,openai.com:443,egov.uscis.gov:443,cf-ip-site.vov.moe:443,www.speedtest.net:443,store.ubi.com:443,224322.xyz:443,saas.sin.fan:443,auto.dolby.dpdns.org:443,themeisle.com:443,www.crazygames.fr:443,www.shopify.com:443,login.rockwellautomation.com:443,xn--b6gac.eu.org:443,www.giannidelprete.it:443
+baota.us.kg:443,www.leics.police.uk:443,dianomi.com:443,fbi.gov:443,mrmacintosh.com:443,cf-cname.xingpingcn.top:443,www.dbs.com.sg:443,cf.777791.xyz:443,img.856518.xyz:443,cdn.204910.best:443,cf.nyanya.moe:443,mail.zrf.me:443,bestcf.030101.xyz:443,www.5h.com:443,cfplus.255520.xyz:443,cnllm.com:443,newsroom.avalara.com:443,www.mc.js.cool:443,01-cctv.com:443,www.carousell.sg:443,www.mlkj888.com:443,cf.877774.xyz:443,cf.92555.xyz:443,www.vmware.com:443,cf.vvhan.com:443,mokeedev.com:443,www.xiaoshuofen.com:443,duckybot.xyz:443,p.etime.vip:443,store.rg-adguard.net:443,tinyurl.com:443,www.cancilleria.gov.co:443,cf.qq.ms:443,api.uniapi.io:443,rarbg.proxyninja.org:443,101yaoye.com:443,dango.co:443,www.scayle.com:443,lose.edu.eu.org:443,webn.cc:443,www.elysee.fr:443,vps.cheng2001.top:443,hashi.sbs:443,appstorrent.ru:443,redis.io:443,yd.zhuqq.qzz.io:443,www.epicgames.com:443,www.pixelexperience.org:443,moegirl.icu:443,cloudflare.tv:443,sanctuarywealth.com:443,debot.ai:443,www.spacex.com:443,elron.ee:443,"
         "cdn.cnno.de:443,saas.sin.fan:443,cf.1o.ee:443",
     ).split(",")
     if h.strip()
@@ -522,8 +523,8 @@ def build_hosts_text(data):
 
 
 # edgetunnel 完整订阅 (vless://) 配置
-EDT_UUID = os.environ.get("EDT_UUID", "9e7f4922-f747-4e90-a3bd-e516b104c457")
-EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "xi.xiaohe.gv.uy")
+EDT_UUID = os.environ.get("EDT_UUID", "2c5f4a8b-2b2c-4f69-bb18-e6419c2904e2")
+EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "wendibgtg.eu.cc")
 EDT_FINGERPRINT = os.environ.get("EDT_FINGERPRINT", "chrome")
 SUB_URL = os.environ.get("SUB_URL", "https://jerylihub.github.io/gate/sub.txt")
 
